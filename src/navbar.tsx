@@ -8,15 +8,19 @@ import {
     NavigationMenuTrigger,
     NavigationMenuViewport,
 } from '@/components/ui/navigation-menu'
+import uviclogo from './assets/uvic-logo.svg'
+import { ModeToggle } from './components/mode-toggle'
 
 export function NavigationBar() {
     return (
         <NavigationMenu
-            className="flex h-14 items-center px-4"
+            className="flex h-14 items-center px-4 border-b-[1px]"
             orientation="horizontal"
         >
+            <ModeToggle></ModeToggle>
+            <img className="w-24 h-24" src={uviclogo} alt="UVIC LOGO"></img>
             <NavigationMenuList>
-                <NavigationMenuItem className="hover:bg-sky-700 hover:clr text-white-500 rounded-full">
+                <NavigationMenuItem class="navmenuitem">
                     <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex-1 grid-flow-col">
@@ -25,7 +29,7 @@ export function NavigationBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="hover:bg-sky-700 hover:clr text-white-500 rounded-full">
+                <NavigationMenuItem>
                     <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex-1 grid-flow-col">
@@ -34,7 +38,7 @@ export function NavigationBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="hover:bg-sky-700 hover:clr text-white-500 rounded-full">
+                <NavigationMenuItem>
                     <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex-1 grid-flow-col">
@@ -43,7 +47,7 @@ export function NavigationBar() {
                     </NavigationMenuContent>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem className="hover:bg-sky-700 hover:clr text-white-500 rounded-full">
+                <NavigationMenuItem>
                     <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <ul className="flex-1 grid-flow-col">
@@ -55,5 +59,3 @@ export function NavigationBar() {
         </NavigationMenu>
     )
 }
-
-export default NavigationBar
