@@ -16,7 +16,7 @@ export function NavigationBar() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Our People</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>
                             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[400px] lg:grid-cols-[.75fr_.75fr]">
@@ -31,7 +31,7 @@ export function NavigationBar() {
                                                 Faculty & Staff
                                             </div>
 
-                                            <p className="text-sm leading-tight text-muted-foreground">
+                                            <p className="lg:h-[70px] text-sm leading-tight text-muted-foreground">
                                                 Our faculty and staff that
                                                 contribute to school.
                                             </p>
@@ -45,7 +45,7 @@ export function NavigationBar() {
                                             <IdCardIcon />
                                         </div>
 
-                                        <div className="mb-2 mt-2 text-lg font-medium">
+                                        <div className="mb-2 mt-[1px] text-lg font-medium">
                                             Researchers
                                         </div>
                                         <p className="lg:h-[70px] text-sm leading-tight text-muted-foreground">
@@ -60,14 +60,22 @@ export function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Undergraduates</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>Link</NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>Graduates</NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                        <NavigationMenuLink>Link</NavigationMenuLink>
+                    </NavigationMenuContent>
+                </NavigationMenuItem>
+
+
+                <NavigationMenuItem>
+                    <NavigationMenuTrigger>Research</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>Link</NavigationMenuLink>
                     </NavigationMenuContent>

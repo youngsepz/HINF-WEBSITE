@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { NavigationBar } from './navbar'
 import { ThemeProvider } from './components/theme-provider'
 import { ModeToggle } from './components/mode-toggle'
+import { SideSheet } from './sidepopper'
 import UvicLogo from './assets/uvic-logo.svg'
 import UvicLogoDark from './assets/uvic-logo-dark.svg'
 
@@ -19,6 +20,8 @@ function App() {
                         <NavigationBar />
                         <div className="px-1">
                             <ModeToggle />
+                            <SideSheet/>
+                            
                         </div>
                     </div>
                 </div>
