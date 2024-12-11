@@ -20,8 +20,7 @@ function App() {
                         <NavigationBar />
                         <div className="px-1">
                             <ModeToggle />
-                            <SideSheet/>
-                            
+                            <SideSheet />
                         </div>
                     </div>
                 </div>
