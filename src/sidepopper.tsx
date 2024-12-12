@@ -14,22 +14,22 @@ export function SideSheet() {
             <SheetTrigger>
                 <MenuIcon />
             </SheetTrigger>
-
-            <SheetContent className="flex flex-col align-middle">
-                <SheetHeader className="text-warning-foreground">
-                    <SheetTitle>Faculty and Staff</SheetTitle>
+ 
+            <SheetContent className="flex flex-col pt-16 text-lg">
+                <SheetHeader>
+                    <SheetTitle className="text-3xl">Our People</SheetTitle>
                     <SheetDescription></SheetDescription>
                 </SheetHeader>
                 <SheetHeader className="h1">
-                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetTitle className="text-3xl">Undergraduates</SheetTitle>
                     <SheetDescription></SheetDescription>
                 </SheetHeader>
                 <SheetHeader className="h1">
-                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetTitle className="text-3xl">Graduates</SheetTitle>
                     <SheetDescription></SheetDescription>
                 </SheetHeader>
                 <SheetHeader className="h1">
-                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetTitle className="text-3xl">Research</SheetTitle>
                     <SheetDescription></SheetDescription>
                 </SheetHeader>
             </SheetContent>

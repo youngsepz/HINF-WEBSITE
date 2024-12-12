@@ -2,13 +2,16 @@ import { useState } from 'react'
 import './App.css'
 import { Button } from '@/components/ui/button'
 import { NavigationBar } from './navbar'
-import { ThemeProvider } from './components/theme-provider'
+import { ThemeProvider, useTheme} from './components/theme-provider'
 import { ModeToggle } from './components/mode-toggle'
 import { SideSheet } from './sidepopper'
 import UvicLogo from './assets/uvic-logo.svg'
 import UvicLogoDark from './assets/uvic-logo-dark.svg'
 
 function App() {
+    const {theme} = useTheme();
+    console.log(theme);
+    
     return (
         <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
             <div className="wrapper sticky border-b-[1px] py-3">
@@ -20,16 +23,17 @@ function App() {
                         <div className="max-md:hidden">
                             <NavigationBar />
                         </div>
-                        <div className="max-md:px-2">
+                        <div className="max-md:px-2 px-1">
                             <ModeToggle />
                         </div>
 
-                        <div className="md:hidden px-0">
+                        <div className="md:hidden px-2">
                             <SideSheet />
                         </div>
                     </div>
                 </div>
             </div>
+            
         </ThemeProvider>
     )
 }
