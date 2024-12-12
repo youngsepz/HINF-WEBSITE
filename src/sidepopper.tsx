@@ -6,19 +6,31 @@ import {
     SheetTitle,
     SheetTrigger,
 } from '@/components/ui/sheet'
+import { MenuIcon } from './components/ui/menu'
 
 export function SideSheet() {
     return (
         <Sheet>
-            <SheetTrigger></SheetTrigger>
-            <SheetContent>
-                <SheetHeader>
-                    <SheetTitle>Are you absolutely sure?</SheetTitle>
-                    <SheetDescription>
-                        This action cannot be undone. This will permanently
-                        delete your account and remove your data from our
-                        servers.
-                    </SheetDescription>
+            <SheetTrigger>
+                <MenuIcon />
+            </SheetTrigger>
+
+            <SheetContent className="flex flex-col align-middle">
+                <SheetHeader className="text-warning-foreground">
+                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetDescription></SheetDescription>
+                </SheetHeader>
+                <SheetHeader className="h1">
+                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetDescription></SheetDescription>
+                </SheetHeader>
+                <SheetHeader className="h1">
+                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetDescription></SheetDescription>
+                </SheetHeader>
+                <SheetHeader className="h1">
+                    <SheetTitle>Faculty and Staff</SheetTitle>
+                    <SheetDescription></SheetDescription>
                 </SheetHeader>
             </SheetContent>
         </Sheet>
