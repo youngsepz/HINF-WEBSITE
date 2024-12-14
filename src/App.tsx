@@ -7,18 +7,30 @@ import { ModeToggle } from './components/mode-toggle'
 import { SideSheet } from './sidepopper'
 import UvicLogo from './assets/uvic-logo.svg'
 import UvicLogoDark from './assets/uvic-logo-dark.svg'
-import { BentoGridSecondDemo } from './bento'
+import Hero from './Hero'
 
 function App() {
     const { theme } = useTheme()
-    console.log(theme)
+    let iconimage
+    switch (theme) {
+        case 'light':
+            iconimage = 'src/assets/uvic-logo.svg'
+            break
+        case 'dark':
+            iconimage = 'src/assets/uvic-logo.svg'
+            break
+    }
 
     return (
-        <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-            <div className="wrapper sticky py-3">
+        <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+            <div className="wrapper sticky py-3 z-40">
                 <div className="flex md:flex-row justify-between items-center max-w-7xl w-100 m-auto md:show max-xl:px-7">
                     <div className="logo flex justify-center items-center text-xl ">
-                        <img className="logo h-8 w-16" src={UvicLogoDark}></img>
+                        <img
+                            className="logo h-8 w-16"
+                            src={iconimage}
+                            alt="Health Information Science"
+                        ></img>
                     </div>
                     <div className="flex">
                         <div className="max-md:hidden">
@@ -34,9 +46,7 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="py-6">
-                <BentoGridSecondDemo />
-            </div>
+            <Hero />
         </ThemeProvider>
     )
 }
