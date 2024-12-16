@@ -14,10 +14,10 @@ function App() {
     let iconimage
     switch (theme) {
         case 'light':
-            iconimage = 'src/assets/uvic-logo.svg'
+            iconimage = './assets/uvic-logo.svg'
             break
         case 'dark':
-            iconimage = 'src/assets/uvic-logo.svg'
+            iconimage = './assets/uvic-logo-dark.svg'
             break
     }
 
