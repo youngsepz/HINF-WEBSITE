@@ -19,7 +19,7 @@ export function NavigationBar() {
                     <NavigationMenuTrigger>Our People</NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>
-                            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[400px] lg:grid-cols-[.75fr_.75fr]">
+                            <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_.75fr]">
                                 <li className="row-span-3">
                                     <NavigationMenuLink>
                                         <a
@@ -60,7 +60,9 @@ export function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Undergraduates</NavigationMenuTrigger>
+                    <NavigationMenuTrigger>
+                        Undergraduates
+                    </NavigationMenuTrigger>
                     <NavigationMenuContent>
                         <NavigationMenuLink>Link</NavigationMenuLink>
                     </NavigationMenuContent>
@@ -72,7 +74,6 @@ export function NavigationBar() {
                         <NavigationMenuLink>Link</NavigationMenuLink>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
-
 
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Research</NavigationMenuTrigger>

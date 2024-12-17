@@ -66,10 +66,5 @@
         @apply bg-background text-foreground;
     }
     .navlogo {
-        @apply w-16;
     }
-}
-
-@sidepopper {
-    
 }
