@@ -11,6 +11,7 @@ import {
 import { UserIcon } from './components/ui/user'
 import { IdCardIcon } from './components/ui/id-card'
 
+
 export function NavigationBar() {
     return (
         <NavigationMenu>
@@ -24,7 +25,7 @@ export function NavigationBar() {
                                     <NavigationMenuLink>
                                         <a
                                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                            href="/"
+                                            href="/apples"
                                         >
                                             <UserIcon />
                                             <div className="mb-2 mt-2 text-lg font-medium">
