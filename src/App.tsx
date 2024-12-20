@@ -9,6 +9,7 @@ import { SideSheet } from './sidepopper'
 import Hero from './Hero'
 import { Testing } from './Test'
 import { TimelineDemo } from './Timeline';
+import {Footer} from './footer'
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                         <Route path="/apples" element={<ModeToggle/>} />
                     </Routes>
 
+<Footer/>
                 </ThemeProvider>          
 
 
