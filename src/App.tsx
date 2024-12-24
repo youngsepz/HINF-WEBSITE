@@ -55,6 +55,8 @@ function App() {
                 />
                 <Route path="/apples" element={<ModeToggle />} />
             </Routes>
+
+            <Footer />
         </ThemeProvider>
     )
 }

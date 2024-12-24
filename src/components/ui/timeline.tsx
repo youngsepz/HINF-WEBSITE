@@ -34,11 +34,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     return (
         <div
-            className="w-full bg-white dark:bg-inherit font-sans md:px-10"
+            className="w-full bg-white dark:bg-inherit font-sans md:px-0"
             ref={containerRef}
         >
             <div className="max-w-7xl mx-auto pt-20 px-4 md:px-8 lg:px-10 border-left-2">
-                <h2 className="text-lg md:text-6xl font-bold mb-4 text-sky-900 dark:text-white dark:bg-inherit dark:border-1 border-white p-0 max-w-6xl rounded-lg">
+                <h2 className="text-lg md:text-6xl font-bold mb-4 text-sky-900 dark:text-white dark:bg-inherit dark:border-1 border-white p-0 max-w-7xl rounded-lg">
                     Our History
                 </h2>
                 <p className="text-neutral-700 dark:text-neutral-300 font-semibold text-sm md:text-lg max-w-full">
