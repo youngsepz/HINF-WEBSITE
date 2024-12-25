@@ -17,7 +17,7 @@ function App() {
             <div className="wrapper sticky py-3 z-40">
                 <div className="flex md:flex-row justify-between items-center max-w-7xl w-100 m-auto md:show max-xl:px-7">
                     <div className="logo flex justify-center items-center text-xl ">
-                        <div className="font-semibold">
+                        <div className="font-semibold dark:text-slate-100 text-slate-600">
                             <a href="/">Health Information Science</a>
                         </div>
                     </div>

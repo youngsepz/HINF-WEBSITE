@@ -11,10 +11,9 @@ import {
 import { UserIcon } from './components/ui/user'
 import { IdCardIcon } from './components/ui/id-card'
 
-
 export function NavigationBar() {
     return (
-        <NavigationMenu>
+        <NavigationMenu className="text-slate-600 dark:text-slate-100">
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger>Our People</NavigationMenuTrigger>

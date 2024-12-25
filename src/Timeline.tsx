@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Timeline } from '@/components/ui/timeline'
+import './index.css'
 
 export function TimelineDemo() {
     const data = [
@@ -7,7 +8,7 @@ export function TimelineDemo() {
             title: '1981',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         The School of Health Information Science is established
                     </p>
                     <div className="grid grid-cols-2 gap-4">
@@ -47,7 +48,7 @@ export function TimelineDemo() {
             title: '1982',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Undergraduate Programs Launched
                     </p>
                     <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -92,7 +93,7 @@ export function TimelineDemo() {
             title: '2001',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Graduate Programs Launched
                     </p>
                     <div className="mb-8">
@@ -149,7 +150,7 @@ export function TimelineDemo() {
             title: '2003',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Combined Computer Science and Health Information Science
                         Major Introduced
                     </p>
@@ -207,7 +208,7 @@ export function TimelineDemo() {
             title: '2010',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Master of Nursing and Master of Science in Health
                         Informatics double degree program introduced
                     </p>
@@ -265,7 +266,7 @@ export function TimelineDemo() {
             title: '2017',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Graduate Certificate in Health Terminology and
                         Interoperability Standards
                     </p>
