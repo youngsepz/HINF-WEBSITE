@@ -24,7 +24,7 @@ export function NavigationBar() {
                                     <NavigationMenuLink>
                                         <a
                                             className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                                            href="/apples"
+                                            href="/staff"
                                         >
                                             <UserIcon />
                                             <div className="mb-2 mt-2 text-lg font-medium">

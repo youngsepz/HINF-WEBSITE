@@ -48,7 +48,7 @@ export function TimelineDemo() {
             title: '1982',
             content: (
                 <div>
-                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
+                    <p className="mb-8 animate-appear bg-gradient-to-r dark:from-slate-50 dark:to-blue-100 from-sky-900 to-blue-900 bg-clip-text text-2xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-2xl sm:leading-tight md:text-4xl md:leading-tight ">
                         Undergraduate Programs Launched
                     </p>
                     <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -98,19 +98,19 @@ export function TimelineDemo() {
                     </p>
                     <div className="mb-8">
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Card grid component
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Startup template Aceternity
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Random file upload lol
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Himesh Reshammiya Music CD
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Salman Bhai Fan Club registrations open
+                            ✅ Placeholder
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -156,19 +156,19 @@ export function TimelineDemo() {
                     </p>
                     <div className="mb-8">
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Card grid component
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Startup template Aceternity
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Random file upload lol
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Himesh Reshammiya Music CD
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Salman Bhai Fan Club registrations open
+                            ✅ Placeholder
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -214,19 +214,19 @@ export function TimelineDemo() {
                     </p>
                     <div className="mb-8">
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Card grid component
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Startup template Aceternity
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Random file upload lol
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Himesh Reshammiya Music CD
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Salman Bhai Fan Club registrations open
+                            ✅ Placeholder
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
@@ -272,19 +272,19 @@ export function TimelineDemo() {
                     </p>
                     <div className="mb-8">
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Card grid component
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Startup template Aceternity
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Random file upload lol
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Himesh Reshammiya Music CD
+                            ✅ Placeholder
                         </div>
                         <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-                            ✅ Salman Bhai Fan Club registrations open
+                            ✅ Placeholder
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">

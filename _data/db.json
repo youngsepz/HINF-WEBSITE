@@ -1,0 +1,84 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "picture": "./src/assets/timeline-pictures/andrekushniruk.jpg",
+      "name": "Andre Kushniruk",
+      "title": "Director, Professor",
+      "description": "",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/Elizabethb.jpg",
+      "name": "Elizabeth Borycki",
+      "title": "Professor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 3,
+      "picture": "./src/assets/timeline-pictures/abdulroudsari.jpg",
+      "name": "Abdul Roudsari",
+      "title": "Professor, Graduate Advisor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/alexkuo.jpg",
+      "name": "Alex Kuo",
+      "title": "Professor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/karencourtney.jpg",
+      "name": "Karen L. Courtney",
+      "title": "Professor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/helenmonkman.jpg",
+      "name": "Helen Monkman",
+      "title": "Assistant Professor, Undergraduate Advisor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/claudialai.jpg",
+      "name": "Claudia Lai",
+      "title": "Assistant Professor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/dennislee.jfif",
+      "name": "Dennis Lee",
+      "title": "Assistant Professor",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/dillonchrimes.jpg",
+      "name": "Dillon Chrimes",
+      "title": "Assistant to the Director",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    },
+    {
+      "id": 2,
+      "picture": "./src/assets/timeline-pictures/simonminshall.jpg",
+      "name": "Simon Minshall",
+      "title": "Assistant Teaching Professor, Certificate Coordinator",
+      "description": "All Undergraduate Queries",
+      "email": "his@uvic.ca"
+    }
+  ]
+}
