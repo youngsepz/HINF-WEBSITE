@@ -5,7 +5,7 @@ import { IconBrandYoutube } from "@tabler/icons-react";
 
 export function Footer() {
   return (
-    <div className="w-[99.5%] m-auto border-t-[1px] border-slate-300 text-slate-500 dark:text-slate-300">
+    <div className="w-[99.5%] m-auto border-t-[1px]">
       <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 m-auto max-w-7xl max-xl:px-7 md:p-16 md:gap-9 p-8 gap-4 items-center justify-center">
         <div className="font-extralight cursor-pointer md:block flex justify-center items-center flex-col">
           <div className="txt">

@@ -7,18 +7,17 @@ import { ThemeProvider, useTheme } from "./components/theme-provider";
 import { ModeToggle } from "./components/mode-toggle";
 import { SideSheet } from "./sidepopper";
 import Hero from "./Hero";
-import { Testing } from "./Test";
+import MyHero from "./myhero";
 import { TimelineDemo } from "./Timeline";
 import { Footer } from "./footer";
 import StaffCard from "./staffcard";
 import { Suspense } from "react";
 import { AnimatedTestimonialsDemo } from "./coop";
-import { WorldMapDemo } from "./map";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-      <div className="wrapper sticky py-3 z-40">
+      <div className="wrapper sticky py-3 z-40 border-b-[1px]">
         <div className="flex md:flex-row justify-between items-center max-w-7xl w-100 m-auto md:show max-xl:px-7">
           <div className="logo flex justify-center items-center text-xl ">
             <div className="font-semibold dark:text-slate-100 text-slate-600">
@@ -47,7 +46,6 @@ function App() {
             <>
               <Hero />
               <AnimatedTestimonialsDemo />
-              <WorldMapDemo />
             </>
           }
         />

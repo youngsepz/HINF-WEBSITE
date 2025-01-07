@@ -161,6 +161,14 @@ export default {
   				'100%': {
   					opacity: '1'
   				}
+  			},
+  			aurora: {
+  				from: {
+  					backgroundPosition: '50% 50%, 50% 50%'
+  				},
+  				to: {
+  					backgroundPosition: '350% 50%, 350% 50%'
+  				}
   			}
   		},
   		animation: {
@@ -168,7 +176,8 @@ export default {
   			'accordion-up': 'accordion-up 0.2s ease-out',
   			appear: 'appear 0.6s forwards ease-out',
   			'appear-zoom': 'appear-zoom 0.6s forwards ease-out',
-  			'pulse-hover': 'pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+  			'pulse-hover': 'pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+  			aurora: 'aurora 60s linear infinite'
   		},
   		spacing: {
   			container: '1280px'
