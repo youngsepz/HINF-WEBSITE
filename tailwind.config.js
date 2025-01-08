@@ -169,6 +169,11 @@ export default {
   				to: {
   					backgroundPosition: '350% 50%, 350% 50%'
   				}
+  			},
+  			'border-beam': {
+  				'100%': {
+  					'offset-distance': '100%'
+  				}
   			}
   		},
   		animation: {
@@ -177,7 +182,8 @@ export default {
   			appear: 'appear 0.6s forwards ease-out',
   			'appear-zoom': 'appear-zoom 0.6s forwards ease-out',
   			'pulse-hover': 'pulse-hover 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-  			aurora: 'aurora 60s linear infinite'
+  			aurora: 'aurora 60s linear infinite',
+  			'border-beam': 'border-beam calc(var(--duration)*1s) infinite linear'
   		},
   		spacing: {
   			container: '1280px'

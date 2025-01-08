@@ -8,6 +8,12 @@ import { Mockup, MockupFrame } from "@/components/ui/mockup";
 import Glow from "@/components/ui/glow";
 import { useTheme } from "next-themes";
 import Github from "@/components/logos/github";
+import { BackgroundGradient } from "./components/ui/background-gradient";
+import { BorderBeam } from "./components/ui/border-beam";
+import { EvervaultCard, Icon } from "./components/ui/evervault-card";
+import { LayersIcon } from "./components/ui/layers";
+import { StethoscopeIcon } from "./components/ui/stethoscope";
+import { UsersIcon } from "./components/ui/users";
 
 export default function Hero() {
   const { resolvedTheme } = useTheme();
@@ -26,49 +32,108 @@ export default function Hero() {
   }
 
   return (
-    <Section className="fade-bottom overflow-hidden pb-0 sm:pb-0 md:pb-0">
-      <div className="mx-auto flex max-w-container flex-col gap-8 pt-0 sm:gap-8">
-        <div className="flex flex-col items-center gap-6 text-center sm:gap-8">
-          <Badge variant="outline" className="animate-appear">
-            <a href="/" className="flex items-center gap-1">
-              University of Victoria
-              <ArrowRightIcon className="h-3 w-3" />
-            </a>
-          </Badge>
-          <h1 className="relative z-10 inline-block animate-appear bg-slate-800 from-foreground to-muted-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight">
-            Health Information Science
-          </h1>
-          <p className="max-w-[64rem] text-balance text-sm tracking-tight text-gray-500 md:text-xl">
-            The most established and premier health informatics program in
-            Canada. A combination of Management, Information Technology,
-            Healthcare.
-          </p>
-          <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
-            <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
-              <Button variant="default" size="lg" asChild>
-                <a href="/">Get Started</a>
-              </Button>
-              <Button variant="glow" size="lg" asChild>
-                <a href="/">
-                  <Github className="mr-2 h-4 w-4" /> Github
-                </a>
-              </Button>
+    <div className="grid grid-cols-3 col-span-2 gap-6 p-16 pb-24 m-auto fade-bottom overflow-hidden">
+      <BackgroundGradient className="col-span-2 rounded-[22px] w-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
+        <div className="col-span-2 mx-auto flex max-w-container flex-col gap-8 pt-0 sm:gap-8">
+          <div className="flex flex-col items-center gap-6 text-center sm:gap-8">
+            <Badge variant="outline" className="animate-appear">
+              <a href="/" className="flex items-center gap-1">
+                University of Victoria
+                <ArrowRightIcon className="h-3 w-3" />
+              </a>
+            </Badge>
+            <h1 className=" z-10 inline-block animate-appear dark:bg-slate-100 bg-slate-800 from-foreground to-muted-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight">
+              Health Information Science
+            </h1>
+            <p className="max-w-[64rem] text-balance text-sm tracking-tight text-gray-500 md:text-xl">
+              The most established and premier health informatics program in
+              Canada. A combination of Management, Information Technology,
+              Healthcare.
+            </p>
+            <div className=" flex animate-appear justify-center gap-4 opacity-0 delay-300">
+              <div className="flex animate-appear justify-center gap-4 opacity-0 delay-300">
+                <Button variant="default" size="lg" asChild>
+                  <a href="/">Get Started</a>
+                </Button>
+                <Button variant="glow" size="lg" asChild>
+                  <a href="/">
+                    <Github className="mr-2 h-4 w-4" /> Github
+                  </a>
+                </Button>
+              </div>
+            </div>
+            <div className="relative pt-12">
+              <MockupFrame
+                className="animate-appear opacity-0 delay-700"
+                size="small"
+              >
+                <Mockup type="responsive"></Mockup>
+              </MockupFrame>
+              <Glow
+                variant="top"
+                className="animate-appear-zoom opacity-0 delay-1000"
+              />
             </div>
           </div>
-          <div className="relative pt-12">
-            <MockupFrame
-              className="animate-appear opacity-0 delay-700"
-              size="small"
-            >
-              <Mockup type="responsive"></Mockup>
-            </MockupFrame>
-            <Glow
-              variant="top"
-              className="animate-appear-zoom opacity-0 delay-1000"
-            />
+        </div>
+      </BackgroundGradient>
+
+      <div className="grid grid-rows-3 text-xl gap-8">
+        <div className="text-white bg-slate-800 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
+          <div className="flex flex-col justify-end h-full p-4">
+            <LayersIcon />
+            <div className="text-4xl font-semibold">Information Technology</div>
+            <div className="block text-xl italic">
+              Coding, Databases, Clinical Implementations
+            </div>
           </div>
+
+          <BorderBeam
+            colorTo="blue"
+            colorFrom="lightblue"
+            borderWidth={3}
+            size={250}
+            duration={8}
+            delay={9}
+          />
+        </div>
+        <div className="text-white bg-rose-950 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
+          <div className="flex flex-col justify-end h-full p-4">
+            <StethoscopeIcon />
+            <div className="text-4xl font-semibold">Healthcare</div>
+            <div className="block text-xl italic">
+              Public Health, Security, Safety
+            </div>
+          </div>
+
+          <BorderBeam
+            colorTo="blue"
+            colorFrom="lightblue"
+            borderWidth={3}
+            size={250}
+            duration={8}
+            delay={9}
+          />
+        </div>
+        <div className="text-white bg-slate-950 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
+          <div className="flex flex-col justify-end h-full p-4">
+            <UsersIcon />
+            <div className="text-4xl font-semibold">Management</div>
+            <div className="block text-xl italic">
+              Coordinating, Planning, Execution
+            </div>
+          </div>
+
+          <BorderBeam
+            colorTo="blue"
+            colorFrom="lightblue"
+            borderWidth={3}
+            size={250}
+            duration={8}
+            delay={9}
+          />
         </div>
       </div>
-    </Section>
+    </div>
   );
 }

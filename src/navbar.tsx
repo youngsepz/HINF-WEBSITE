@@ -13,7 +13,7 @@ import { IdCardIcon } from "./components/ui/id-card";
 
 export function NavigationBar() {
   return (
-    <NavigationMenu className="text-slate-600 dark:text-slate-100">
+    <NavigationMenu className="text-slate-900 dark:text-slate-100">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Our People</NavigationMenuTrigger>
