@@ -33,50 +33,55 @@ export default function Hero() {
 
   return (
     <div className="grid grid-cols-3 col-span-2 gap-6 p-16 pb-24 m-auto fade-bottom overflow-hidden">
-      <BackgroundGradient className="col-span-2 rounded-[22px] w-full p-4 sm:p-10 bg-white dark:bg-zinc-900">
-        <div className="col-span-2 mx-auto flex max-w-container flex-col gap-8 pt-0 sm:gap-8">
-          <div className="flex flex-col items-center gap-6 text-center sm:gap-8">
-            <Badge variant="outline" className="animate-appear">
-              <a href="/" className="flex items-center gap-1">
-                University of Victoria
-                <ArrowRightIcon className="h-3 w-3" />
-              </a>
-            </Badge>
-            <h1 className=" z-10 inline-block animate-appear dark:bg-slate-100 bg-slate-800 from-foreground to-muted-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight">
-              Health Information Science
-            </h1>
-            <p className="max-w-[64rem] text-balance text-sm tracking-tight text-gray-500 md:text-xl">
-              The most established and premier health informatics program in
-              Canada. A combination of Management, Information Technology,
-              Healthcare.
-            </p>
-            <div className=" flex animate-appear justify-center gap-4 opacity-0 delay-300">
-              <div className="flex animate-appear justify-center gap-4 opacity-0 delay-300">
-                <Button variant="default" size="lg" asChild>
-                  <a href="/">Get Started</a>
-                </Button>
-                <Button variant="glow" size="lg" asChild>
-                  <a href="/">
-                    <Github className="mr-2 h-4 w-4" /> Github
-                  </a>
-                </Button>
-              </div>
-            </div>
-            <div className="relative pt-12">
-              <MockupFrame
-                className="animate-appear opacity-0 delay-700"
-                size="small"
-              >
-                <Mockup type="responsive"></Mockup>
-              </MockupFrame>
-              <Glow
-                variant="top"
-                className="animate-appear-zoom opacity-0 delay-1000"
-              />
+      {/* <BackgroundGradient className="col-span-2 rounded-[22px] w-full p-4 sm:p-10 bg-[#89CFF0] dark:bg-zinc-900"> */}
+      <div className="col-span-2 mx-auto flex max-w-container flex-col xl:px-8 gap-8 pt-0 sm:gap-8">
+        <div className="flex flex-col gap-6 sm:gap-8">
+          <Badge
+            variant=""
+            className="flex items-center justify-center w-[200px] animate-appear"
+          >
+            <a href="/" className="flex items-center gap-1 text-large">
+              University of Victoria's
+              <ArrowRightIcon className="h-3 w-3" />
+            </a>
+          </Badge>
+          <h1 className="font-semibold z-10 text-left inline-block animate-appear dark:bg-slate-100 bg-black from-foreground to-muted-foreground bg-clip-text text-transparent drop-shadow-2xl text-6xl lg:text-8xl">
+            <span className="block">Health</span>
+            <span className="block">Information</span>
+            <span className="block">Science</span>
+          </h1>
+          <p className="h-[150px] max-w-[48rem] text-sm text-slate-950 md:text-xl">
+            The most established and premier health informatics program in
+            Canada. A combination of Management, Information Technology,
+            Healthcare.
+          </p>
+          <div className=" flex animate-appear gap-4 opacity-0 delay-300">
+            <div className="flex animate-appear  gap-4 opacity-0 delay-300">
+              <Button variant="default" size="lg" asChild>
+                <a href="/">Get Started</a>
+              </Button>
+              <Button variant="glow" size="lg" asChild>
+                <a href="/">
+                  <Github className="mr-2 h-4 w-4" /> Github
+                </a>
+              </Button>
             </div>
           </div>
+          <div className="relative pt-12">
+            <MockupFrame
+              className="animate-appear opacity-0 delay-700"
+              size="small"
+            >
+              <Mockup type="responsive"></Mockup>
+            </MockupFrame>
+            <Glow
+              variant="top"
+              className="animate-appear-zoom opacity-0 delay-1000"
+            />
+          </div>
         </div>
-      </BackgroundGradient>
+      </div>
+      {/* </BackgroundGradient> */}
 
       <div className="grid grid-rows-3 text-xl gap-8">
         <div className="text-white bg-slate-800 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
