@@ -38,14 +38,14 @@ export default function Hero() {
         <div className="flex flex-col gap-6 sm:gap-8">
           <Badge
             variant=""
-            className="flex items-center justify-center w-[200px] animate-appear"
+            className="flex items-center justify-center w-[200px] animate-appear bg-[#002754]"
           >
             <a href="/" className="flex items-center gap-1 text-large">
               University of Victoria's
               <ArrowRightIcon className="h-3 w-3" />
             </a>
           </Badge>
-          <h1 className="font-semibold z-10 text-left inline-block animate-appear dark:bg-slate-100 bg-black from-foreground to-muted-foreground bg-clip-text text-transparent drop-shadow-2xl text-6xl lg:text-8xl">
+          <h1 className="font-semibold z-10 text-left inline-block animate-appear dark:bg-slate-100 bg-[#002754] from-foreground to-muted-foreground text-white rounded-lg p-5 text-transparent drop-shadow-2xl text-6xl lg:text-8xl">
             <span className="block">Health</span>
             <span className="block">Information</span>
             <span className="block">Science</span>
@@ -57,7 +57,12 @@ export default function Hero() {
           </p>
           <div className=" flex animate-appear gap-4 opacity-0 delay-300">
             <div className="flex animate-appear  gap-4 opacity-0 delay-300">
-              <Button variant="default" size="lg" asChild>
+              <Button
+                className="bg-[#002754]"
+                variant="default"
+                size="lg"
+                asChild
+              >
                 <a href="/">Get Started</a>
               </Button>
               <Button variant="glow" size="lg" asChild>
@@ -83,8 +88,8 @@ export default function Hero() {
       </div>
       {/* </BackgroundGradient> */}
 
-      <div className="grid grid-rows-3 text-xl gap-8">
-        <div className="text-white bg-slate-800 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
+      <div className="grid grid-rows-3 text-xl gap-8 relative">
+        <div className="text-white bg-slate-700 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
           <div className="flex flex-col justify-end h-full p-4">
             <LayersIcon />
             <div className="text-4xl font-semibold">Information Technology</div>
@@ -102,6 +107,7 @@ export default function Hero() {
             delay={9}
           />
         </div>
+
         <div className="text-white bg-rose-950 dark:bg-slate-100 relative md:text-4xl text-4xl rounded-lg ">
           <div className="flex flex-col justify-end h-full p-4">
             <StethoscopeIcon />

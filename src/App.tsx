@@ -13,6 +13,7 @@ import { Footer } from "./footer";
 import StaffCard from "./staffcard";
 import { Suspense } from "react";
 import { AnimatedTestimonialsDemo } from "./coop";
+import Timelinelink from "./timelinelink";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
           element={
             <>
               <Hero />
+              <Timelinelink />
               <AnimatedTestimonialsDemo />
             </>
           }
