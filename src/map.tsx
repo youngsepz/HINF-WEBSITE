@@ -24,7 +24,7 @@ export function WorldMapDemo() {
         </p>
         <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4 sm:py-2">
           Graduates are in-demand worldwide to develop healthcare systems and
-          build infrastructure.
+          build infrastructure. Health Information Science is trains graduates to be leaders in the healthcare space.
         </p>
       </div>
       <WorldMap
@@ -33,39 +33,39 @@ export function WorldMapDemo() {
             start: {
               lat: 40.0522,
               lng: -125.2437,
-            }, // Alaska (Fairbanks)
+            }, // Victoria, BC
             end: {
               lat: 34.0522,
               lng: -118.2437,
             }, // Los Angeles
           },
           {
-            start: { lat: 40.0522, lng: -125.2437 }, // Alaska (Fairbanks)
+            start: { lat: 40.0522, lng: -125.2437 }, // Victoria, BC
             end: { lat: -20.7975, lng: -52.8919 }, // Brazil (Brasília)
           },
           {
-            start: { lat: 40.0522, lng: -125.2437 }, // Brazil (Brasília)
+            start: { lat: 40.0522, lng: -125.2437 }, // Victoria, BC
             end: { lat: 43.7223, lng: -1.1393 }, // Lisbon
           },
           {
-            start: { lat: 40.0522, lng: -125.2437 }, // London
+            start: { lat: 40.0522, lng: -125.2437 }, // Victoria, BC
             end: { lat: 28.6139, lng: 77.209 }, // New Delhi
           },
           {
-            start: { lat: 40.0522, lng: -125.2437 }, // New Delhi
+            start: { lat: 40.0522, lng: -125.2437 }, // Victoria, BC
             end: { lat: 43.1332, lng: 131.9113 }, // Vladivostok
           },
           {
-            start: { lat: 40.0522, lng: -125.2437 }, // New Delhi
+            start: { lat: 40.0522, lng: -125.2437 }, // Victoria, BC
             end: { lat: -1.2921, lng: 36.8219 }, // Nairobi
           },
           {
             start: {
-              lat: 40.0522,
+              lat: 40.0522, // Victoria, BC
               lng: -125.2437,
             }, // Alaska (Fairbanks)
             end: {
-              lat: 49.0522,
+              lat: 49.0522, // Victoria, BC
               lng: -90.2437,
             }, // Los Angeles
           },

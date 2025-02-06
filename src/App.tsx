@@ -14,6 +14,7 @@ import StaffCard from "./staffcard";
 import { Suspense } from "react";
 import { AnimatedTestimonialsDemo } from "./coop";
 import Timelinelink from "./timelinelink";
+import EmploymentRate from "./employment";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
             <>
               <Hero />
               <Timelinelink />
+              <EmploymentRate/>
               <AnimatedTestimonialsDemo />
             </>
           }

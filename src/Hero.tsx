@@ -16,20 +16,6 @@ import { StethoscopeIcon } from "./components/ui/stethoscope";
 import { UsersIcon } from "./components/ui/users";
 
 export default function Hero() {
-  const { resolvedTheme } = useTheme();
-  let src;
-
-  switch (resolvedTheme) {
-    case "light":
-      src = "/app-light.png";
-      break;
-    case "dark":
-      src = "/app-dark.png";
-      break;
-    default:
-      src = "/app-dark.png";
-      break;
-  }
 
   return (
     <div className="grid grid-cols-3 col-span-2 gap-6 p-16 pl-8 xl:pl-0 pb-24 m-auto fade-bottom overflow-hidden">
@@ -45,7 +31,7 @@ export default function Hero() {
               <ArrowRightIcon className="h-3 w-3" />
             </a>
           </Badge>
-          <h1 className="font-semibold z-10 text-left inline-block animate-appear dark:bg-inherit dark:border-slate-100 dark:border-l-4 dark:rounded-0 bg-blue-700 from-foreground to-muted-foreground text-white rounded-lg p-5 text-transparent drop-shadow-2xl text-6xl lg:text-8xl">
+          <h1 className="font-semibold z-10 text-left inline-block animate-appear dark:bg-inherit dark:border-slate-100 dark:border-l-4 dark:rounded-0 bg-blue-700 from-foreground to-muted-foreground text-white rounded-lg p-5 text-transparent drop-shadow-2xl text-7xl lg:text-8xl">
             <span className="block">Health</span>
             <span className="block">Information</span>
             <span className="block">Science</span>
@@ -89,7 +75,7 @@ export default function Hero() {
       {/* </BackgroundGradient> */}
 
       <div className="grid grid-rows-3 text-xl gap-8 relative">
-        <div className="shadow-2xl dark:bg-inherit relative md:text-4xl text-4xl rounded-lg text-blue-700">
+        <div className="shadow-2xl dark:bg-inherit relative md:text-4xl text-4xl rounded-lg text-white bg-gradient-to-r from-blue-800 to-blue-700">
           <div className="flex flex-col justify-end h-full p-4">
             <LayersIcon />
             <div className="text-4xl font-bold ">Information Technology</div>
@@ -109,7 +95,7 @@ export default function Hero() {
         </div>
 
         <div className="shadow-2xl bg-inherit dark:bg-inherit relative md:text-4xl text-4xl rounded-lg ">
-          <div className="flex flex-col justify-end h-full p-4 text-rose-800">
+          <div className="flex flex-col justify-end h-full p-4 rounded-lg text-white bg-gradient-to-r from-rose-800 to-rose-500">
             <StethoscopeIcon />
             <div className="text-4xl font-bold">Healthcare</div>
             <div className="block text-xl italic">
@@ -127,7 +113,7 @@ export default function Hero() {
           />
         </div>
         <div className="shadow-2xl bg-inherit dark:bg-inherit relative md:text-4xl text-4xl rounded-lg ">
-          <div className="flex flex-col justify-end h-full p-4 text-[#21444B]">
+          <div className="flex flex-col justify-end h-full p-4 rounded-lg text-white text-white bg-gradient-to-r from-slate-700 to-slate-500">
             <UsersIcon />
             <div className="text-4xl font-bold">Management</div>
             <div className="block text-xl italic">
