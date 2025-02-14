@@ -2,7 +2,7 @@ import { TimelineSvg } from "./components/ui/timelinesvg";
 
 export default function Timelinelink() {
   return (
-    <div className="m-auto max-w-screen-2xl xlg:px-0 px-12 transition-shadow">
+    <div className="m-auto max-w-screen-2xl xlg:px-0 px-12 transition-shadow border-t-2 border-b-2">
       <div className="flex m-auto pl-0 max-w-screen-2xl bg-clip-text bg-gradient-to-r from-blue-600 to-blue-950 top-[-30px] text-[4rem] lg:text-[5rem] font-semibold text-transparent">
         Our History
       </div>
