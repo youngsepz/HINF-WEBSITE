@@ -7,7 +7,6 @@ import { ThemeProvider, useTheme } from "./components/theme-provider";
 import { ModeToggle } from "./components/mode-toggle";
 import { SideSheet } from "./sidepopper";
 import Hero from "./Hero";
-import MyHero from "./myhero";
 import { TimelineDemo } from "./Timeline";
 import { Footer } from "./footer";
 import StaffCard from "./staffcard";
