@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRightIcon } from "lucide-react";
+import { ArrowRightIcon, Book, BookAIcon, BookOpen, BookPlusIcon, BookTemplate, LucideBookText, X } from "lucide-react";
 import { Section } from "@/components/ui/section";
 import { Mockup, MockupFrame } from "@/components/ui/mockup";
 import Glow from "@/components/ui/glow";
@@ -51,7 +51,7 @@ export default function Hero() {
               </Button>
               <Button variant="glow" size="lg" asChild>
                 <a href="/">
-                  <Github className="mr-2 h-4 w-4" /> For Graduates
+                  <BookOpen class={{ fontSize: '80px' }} className="mr-1 text-4xl" /> For Graduates
                 </a>
               </Button>
             </div>
@@ -73,7 +73,7 @@ export default function Hero() {
       {/* </BackgroundGradient> */}
 
       <div className="grid grid-rows-3 text-xl gap-8 relative">
-        <div className="shadow-2xl dark:bg-inherit relative md:text-4xl text-4xl rounded-lg text-white bg-gradient-to-r from-blue-800 to-blue-700">
+        <div className="shadow-2xl dark:bg-inherit relative md:text-4xl text-4xl rounded-lg text-white bg-gradient-to-r from-blue-400 to-blue-600">
           <div className="flex flex-col justify-end h-full p-4">
             <LayersIcon />
             <div className="text-4xl font-bold ">Information Technology</div>

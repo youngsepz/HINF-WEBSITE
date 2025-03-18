@@ -14,6 +14,7 @@ import { Suspense } from "react";
 import { AnimatedTestimonialsDemo } from "./coop";
 import Timelinelink from "./timelinelink";
 import EmploymentRate from "./employment";
+import Membership from "./membership";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
               <Timelinelink />
               <EmploymentRate/>
               <AnimatedTestimonialsDemo />
+              <Membership/>
             </>
           }
         />
