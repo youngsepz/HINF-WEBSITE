@@ -49,8 +49,8 @@ function App() {
               <Hero />
               <Timelinelink />
               <EmploymentRate/>
-              <AnimatedTestimonialsDemo />
               <Membership/>
+              <AnimatedTestimonialsDemo />
             </>
           }
         />
